@@ -1,0 +1,33 @@
+spring:
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 192.168.30.128:8848
+
+    sentinel:
+      transport:
+        #配置sentinel dashboard地址
+        dashboard: localhost:8080
+  application:
+    name: gulimall-search
+  session:
+    store-type: redis
+  redis:
+    host: 192.168.30.128
+    port: 6379
+  thymeleaf:
+    cache: false
+server:
+  port: 30001
+
+
+#开启feign对sentinel的支持
+feign:
+  sentinel:
+    enabled: true
+#暴露所有端点
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
