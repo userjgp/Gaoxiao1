@@ -9,10 +9,7 @@ import lombok.Data;
 
 /**
  * 订单配置信息
- * 
- * @author jiguangpeng
- * @email 1762928707@qq.com
- * @date 2022-12-05 22:58:02
+ *
  */
 @Data
 @TableName("oms_order_setting")

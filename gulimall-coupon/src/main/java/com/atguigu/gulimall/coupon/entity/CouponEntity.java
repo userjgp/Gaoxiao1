@@ -2,18 +2,15 @@ package com.atguigu.gulimall.coupon.entity;
 
 import com.baomidou.mybatisplus.annotation.TableId;
 import com.baomidou.mybatisplus.annotation.TableName;
-
-import java.math.BigDecimal;
-import java.io.Serializable;
-import java.util.Date;
 import lombok.Data;
+
+import java.io.Serializable;
+import java.math.BigDecimal;
+import java.util.Date;
 
 /**
  * 优惠券信息
- * 
- * @author jiguangpeng
- * @email 1762928707@qq.com
- * @date 2022-12-05 22:54:18
+ *
  */
 @Data
 @TableName("sms_coupon")

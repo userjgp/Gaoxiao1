@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="EntryPointsManager">
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="org.springframework.amqp.rabbit.annotation.RabbitListener" />
+    </list>
+  </component>
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="MavenProjectsManager">
     <option name="originalFiles">
@@ -8,6 +13,13 @@
         <option value="$PROJECT_DIR$/renren-generator/pom.xml" />
         <option value="$PROJECT_DIR$/gulimall-common/pom.xml" />
         <option value="$PROJECT_DIR$/renren-fast/pom.xml" />
+        <option value="$PROJECT_DIR$/gulimall-gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/gulimall-third-party/pom.xml" />
+        <option value="$PROJECT_DIR$/gulimall-ware/pom.xml" />
+        <option value="$PROJECT_DIR$/gulimall-search/pom.xml" />
+        <option value="$PROJECT_DIR$/gulimall-auth-server/pom.xml" />
+        <option value="$PROJECT_DIR$/gulimall-cart/pom.xml" />
+        <option value="$PROJECT_DIR$/gulimall-seckill/pom.xml" />
       </list>
     </option>
   </component>

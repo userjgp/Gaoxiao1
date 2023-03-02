@@ -7,9 +7,9 @@ import org.apache.ibatis.annotations.Mapper;
 /**
  * 优惠券信息
  * 
- * @author jiguangpeng
- * @email 1762928707@qq.com
- * @date 2022-12-05 22:54:18
+ * @author 夏沫止水
+ * @email HeJieLin@gulimall.com
+ * @date 2020-05-22 19:35:30
  */
 @Mapper
 public interface CouponDao extends BaseMapper<CouponEntity> {

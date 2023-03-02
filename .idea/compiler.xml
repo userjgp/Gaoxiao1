@@ -8,29 +8,36 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="gulimall-coupon" />
+        <module name="gulimall-cart" />
         <module name="gulimall-common" />
-        <module name="renren-fast" />
-        <module name="gulimall-member" />
-        <module name="gulimall-ware" />
+        <module name="gulimall-auth-server" />
+        <module name="gulimall-order" />
+        <module name="gulimall-gateway" />
+        <module name="gulimall-seckill" />
         <module name="gulimall-product" />
         <module name="renren-generator" />
-      </profile>
-      <profile name="Annotation profile for guliemail" enabled="true">
-        <sourceOutputDir name="../gulimall-ware/target/generated-sources/annotations" />
-        <sourceTestOutputDir name="../gulimall-ware/target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <module name="gulimall-order" />
+        <module name="gulimall-third-party" />
+        <module name="renren-fast" />
+        <module name="gulimall-search" />
+        <module name="gulimall-member" />
+        <module name="gulimall-ware" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8" />
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="gulimall-auth-server" options="-parameters" />
+      <module name="gulimall-cart" options="-parameters" />
       <module name="gulimall-common" options="-parameters" />
       <module name="gulimall-coupon" options="-parameters" />
+      <module name="gulimall-gateway" options="-parameters" />
       <module name="gulimall-member" options="-parameters" />
       <module name="gulimall-order" options="-parameters" />
       <module name="gulimall-product" options="-parameters" />
+      <module name="gulimall-search" options="-parameters" />
+      <module name="gulimall-seckill" options="-parameters" />
+      <module name="gulimall-third-party" options="-parameters" />
       <module name="gulimall-ware" options="-parameters" />
       <module name="renren-fast" options="-parameters" />
       <module name="renren-generator" options="-parameters" />

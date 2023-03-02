@@ -1,8 +1,9 @@
 package com.atguigu.gulimall.ware.controller;
-import com.atguigu.common.utils.PageUtils;
+
 import java.util.Arrays;
 import java.util.Map;
 
+import com.atguigu.gulimall.ware.entity.WareOrderTaskEntity;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -10,16 +11,16 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.atguigu.gulimall.ware.entity.WareOrderTaskEntity;
 import com.atguigu.gulimall.ware.service.WareOrderTaskService;
-
+import com.atguigu.common.utils.PageUtils;
 import com.atguigu.common.utils.R;
+
+
+
 /**
  * 库存工作单
  *
- * @author jiguangpeng
- * @email 1762928707@qq.com
- * @date 2022-12-05 23:02:13
+
  */
 @RestController
 @RequestMapping("ware/wareordertask")

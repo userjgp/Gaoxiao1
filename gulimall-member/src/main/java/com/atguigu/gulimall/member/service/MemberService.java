@@ -1,5 +1,10 @@
 package com.atguigu.gulimall.member.service;
 
+import com.atguigu.gulimall.member.exception.PhoneException;
+import com.atguigu.gulimall.member.exception.UsernameException;
+import com.atguigu.gulimall.member.vo.MemberRegistVo;
+import com.atguigu.gulimall.member.vo.MemberUserLoginVo;
+import com.atguigu.gulimall.member.vo.SocialUser;
 import com.baomidou.mybatisplus.extension.service.IService;
 import com.atguigu.gulimall.member.entity.MemberEntity;
 
@@ -15,5 +20,15 @@ import com.atguigu.common.utils.PageUtils;
 public interface MemberService extends IService<MemberEntity> {
 
     PageUtils queryPage(Map<String, Object> params);
+
+    void regist(MemberRegistVo vo);
+
+    void checkephone(String phone) throws PhoneException;
+
+    void checkeusername(String username)throws UsernameException;
+
+    MemberEntity login(MemberUserLoginVo vo);
+
+    MemberEntity login(SocialUser socialUser) throws Exception;
 }
 

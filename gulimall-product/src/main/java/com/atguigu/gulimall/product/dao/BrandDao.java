@@ -6,7 +6,7 @@ import org.apache.ibatis.annotations.Mapper;
 
 /**
  * 品牌
- * 
+ *
  * @author jiguangpeng
  * @email 1762928707@qq.com
  * @date 2022-12-05 23:00:33
